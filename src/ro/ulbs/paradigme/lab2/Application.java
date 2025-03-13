@@ -1,4 +1,8 @@
-package ro.ulbs.paradigme.lab2.forme;
+package ro.ulbs.paradigme.lab2;
+
+import ro.ulbs.paradigme.lab2.forme.Circle;
+import ro.ulbs.paradigme.lab2.forme.Square;
+import ro.ulbs.paradigme.lab2.forme.Triangle;
 
 public class Application {
     public static void main(String[] args) {
