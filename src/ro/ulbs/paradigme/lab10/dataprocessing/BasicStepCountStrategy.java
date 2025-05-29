@@ -1,7 +1,6 @@
-package ro.ulbs.paradigme.lab10.java.dataprocessing;
+package ro.ulbs.paradigme.lab10.dataprocessing;
 
-import dataprocessing.StepCountStrategy;
-import storage.SensorData;
+import ro.ulbs.paradigme.lab10.storage.SensorData;
 
 import java.util.ArrayList;
 import java.util.List;

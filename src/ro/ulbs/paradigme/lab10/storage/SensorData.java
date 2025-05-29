@@ -1,4 +1,4 @@
-package storage;
+package ro.ulbs.paradigme.lab10.storage;
 
 /**
  * Represents the sensing data sent to the storage component

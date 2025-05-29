@@ -1,4 +1,4 @@
-package ro.ulbs.paradigme.lab10.java.main;
+package ro.ulbs.paradigme.lab10.main;
 
 import java.util.Scanner;
 

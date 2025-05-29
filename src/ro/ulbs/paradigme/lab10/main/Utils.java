@@ -1,4 +1,4 @@
-package main;
+package ro.ulbs.paradigme.lab10.main;
 
 public class Utils {
     public static final String BASIC_STRATEGY = "basic";

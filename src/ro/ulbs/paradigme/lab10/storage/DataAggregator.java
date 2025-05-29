@@ -1,7 +1,7 @@
-package ro.ulbs.paradigme.lab10.java.storage;
+package ro.ulbs.paradigme.lab10.storage;
 
 
-import dataprocessing.StepCountStrategy;
+import ro.ulbs.paradigme.lab10.dataprocessing.StepCountStrategy;
 
 public class DataAggregator  {
     private StepCountStrategy strategy;

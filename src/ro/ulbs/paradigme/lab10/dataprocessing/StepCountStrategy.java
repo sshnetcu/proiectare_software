@@ -1,6 +1,6 @@
-package dataprocessing;
+package ro.ulbs.paradigme.lab10.dataprocessing;
 
-import storage.SensorData;
+import ro.ulbs.paradigme.lab10.storage.SensorData;
 
 /**
  * Defines the operations that can be performed on step data. Each implementation uses its own algorithm.

@@ -1,4 +1,4 @@
-package ro.ulbs.paradigme.lab10.java.storage;
+package ro.ulbs.paradigme.lab10.storage;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,7 @@ import java.util.List;
 public class DataRepository {
 
     private static DataRepository instance;
-    private final List<storage.SensorData> dataRecords;
+    private final List<SensorData> dataRecords;
 
     private DataRepository() {
         dataRecords = new ArrayList<>();
@@ -20,11 +20,11 @@ public class DataRepository {
         return instance;
     }
 
-    public void addData(storage.SensorData dataRecord) {
+    public void addData(SensorData dataRecord) {
         dataRecords.add(dataRecord);
     }
 
-    public List<storage.SensorData> getRecords() {
+    public List<SensorData> getRecords() {
         return new ArrayList<>(dataRecords);
     }
 }
